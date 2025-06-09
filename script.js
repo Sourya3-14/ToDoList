@@ -87,8 +87,8 @@ document.getElementById('addForm').addEventListener('submit', function(e) {
     update(); // your add function
 });
 
-document.getElementById('searchForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    searchItems(); // function to filter your list based on search input
-});
+// document.getElementById('searchForm').addEventListener('submit', function(e) {
+//     e.preventDefault();
+//     searchItems(); // function to filter your list based on search input
+// });
 
